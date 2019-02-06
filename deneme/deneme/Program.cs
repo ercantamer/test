@@ -33,6 +33,8 @@ namespace deneme
             Console.WriteLine("-----Print Values----");
             ogrenci.Print();
 
+            Console.WriteLine(ogrenci.ReturnNote());
+
         }
     }
     class Student
@@ -69,6 +71,10 @@ namespace deneme
             Console.WriteLine(Name);
             Console.WriteLine(Note);
             Console.WriteLine(Adress);
+        }
+        public int ReturnNote()
+        {
+            return ReturnNote();
         }
     }
     //struct Student //gerek yok buna
